@@ -1,0 +1,2 @@
+print(len('abcdfASDe'))
+print(len([1, 2, 3, 4]))
