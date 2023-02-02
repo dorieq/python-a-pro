@@ -1,0 +1,6 @@
+1. Class
+2. Object
+3. Inheritance
+4. Encapsulation
+5. Polymorphysm
+6. Abstraction
