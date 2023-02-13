@@ -15,7 +15,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.conf import settings
+from django.conf.urls.static import static
+from work.views import v, create, get, delete
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-]
+    path('', v),
+    path('create/', create),
+    path('get/', get),
+    path('delete', delete)
+] + static(settings.STATIC_URL)
